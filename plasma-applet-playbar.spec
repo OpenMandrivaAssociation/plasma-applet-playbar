@@ -10,6 +10,7 @@ Group:          Graphical desktop/KDE
 Url:            https://github.com/audoban/PlayBar
 Source:         PlayBar-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:  kdelibs4-devel >= 4.11
 
 Requires:       kdebase4-runtime 
